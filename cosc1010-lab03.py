@@ -3,7 +3,7 @@
 # 9/25/24
 # Lab 03 
 # Lab Section: 15
-# Sources, people worked with, help given to: Colter Makowski
+# Sources, people worked with, help given to: Colter Makowski, Emmanual
 # your
 # comments
 # here
@@ -31,7 +31,7 @@ print(stateswithelements[0])
 print(stateswithelements[-1])
 
 #Using an F-string to access the first and second element print the string "COLORADO is south of WYOMING", matching the casing provided
-print(f"{stateswithelements[1]} is south of {stateswithelements[0]}, matching the casing provided")
+print(f"{stateswithelements[1].upper()} is south of {stateswithelements[0].upper()}")
 
 
 
